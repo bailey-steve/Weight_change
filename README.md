@@ -32,41 +32,36 @@ The AI results will reflect that different diets work differently with other exe
 
 As they track calories, sleep and exercise along with changes to their BMI / weight, the AI will more accurately estimate their weight changes in the future.
 
-Food calorie data from ....
 
-Exercise data from .....
 
-Individual data from ....
-
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+We could provide an API/interface into the AI system, allowing developers to incorporate the weight loss predictions into Apps and websites.
 
 
 ![Scales](https://www.pngall.com/wp-content/uploads/2016/09/Weight-Scale-Free-Download-PNG.png)
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+There are many sources for the data. Initial food data is available from the USDA (U.S. Department of Argiculture), which provides database access:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+https://fdc.nal.usda.gov/
+
+This will give detailed information on individual food, for example, the Snickers bar I am currently eating:
+
+https://fdc.nal.usda.gov/fdc-app.html#/food-details/169589/nutrients
+
+For exercise, there are many APIs which will provide access to data. For example, several can be found at:
+
+https://rapidapi.com/search/fitness
 
 ## Challenges
 
-Currently the project doesn't consider the persons metabolsim. This would effect the rate of weight loss. Also the system would need access to personal infromation which would need to be protected.
+Initially, merging exercise and food analysis data will be a problem. This will be solved over time as our system is used and people provide their own results based on diet and exercise. The more people use the system, the more accurate it will become.
+
+Currently, the project doesn't consider the person's metabolism. This would affect the rate of weight loss. Also, the system would need access to personal information, which we must protect.
 
 ## What next?
 
-There are already apps which track each individual food eaten, and provide a wealth of data which could be added to the model (Different types of fat, cholesterol, sodium, fiber, sugar, protien, vitamins, iron, etc).
+There are already apps which track each food eaten and provide a wealth of data which could be added to the model (Different types of fat, cholesterol, sodium, fibre, sugar, protein, vitamins, iron, etc).
 
 
-## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
